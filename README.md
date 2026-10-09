@@ -1,4 +1,4 @@
-# GRIDLOCK — Automated Traffic Violation Detection
+# Automated Traffic Violation Detection
 
 This prototype is a traffic surveillance prototype that uses computer vision to detect helmet violations from traffic images, highlight violations on the image, extract plate details when possible, and generate an e-challan style report.
 
