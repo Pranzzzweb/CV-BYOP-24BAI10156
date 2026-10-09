@@ -38,22 +38,6 @@ This prototype is a traffic surveillance prototype that uses computer vision to 
 * Local JSON file for history (`db.json`)
 * Uploaded images and generated PDFs in `backend/static/uploads/`
 
-## Live Demo Links
-
-**Frontend**
-
-```text
-https://incandescent-daifuku-9503e3.netlify.app/
-```
-
-**Backend**
-
-```text
-https://gridlock-hackathon.onrender.com/
-```
-
-> Note: The backend API is deployed, but heavy ML inference can hit free-tier memory limits on Render. For a fully reliable demo, run the backend locally.
-
 ## Project Structure
 
 ```text
@@ -162,12 +146,3 @@ For a clean demo, use a clear traffic image with:
 
 If OCR returns `UNKNOWN`, that usually means the plate was not clear enough in the image.
 
-## Deployment Notes
-
-* Frontend is deployed on Netlify
-* Backend is deployed on Render, but the free instance can run out of memory during heavy inference
-* If the backend crashes on cloud inference, run the backend locally during the demo
-
-## Credits
-
-Built as a hackathon prototype for automated traffic violation detection and e-challan generation.
